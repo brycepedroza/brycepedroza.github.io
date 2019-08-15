@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34f86288.chunk.css",
+    "main.js": "/static/js/main.517d6189.chunk.js",
+    "main.js.map": "/static/js/main.517d6189.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.b4b9169f.js",
+    "runtime~main.js.map": "/static/js/runtime~main.b4b9169f.js.map",
+    "static/css/2.621b5bde.chunk.css": "/static/css/2.621b5bde.chunk.css",
+    "static/js/2.723d53a3.chunk.js": "/static/js/2.723d53a3.chunk.js",
+    "static/js/2.723d53a3.chunk.js.map": "/static/js/2.723d53a3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b485dc061fc588039a3a90a237b793f4.js": "/precache-manifest.b485dc061fc588039a3a90a237b793f4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.621b5bde.chunk.css.map": "/static/css/2.621b5bde.chunk.css.map",
+    "static/css/main.34f86288.chunk.css.map": "/static/css/main.34f86288.chunk.css.map",
+    "static/media/index.css": "/static/media/background1.34c3707f.png",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/defcon.jpg": "/static/media/defcon.91c87ebe.jpg",
+    "static/media/headshot.jpg": "/static/media/headshot.b8bc67e8.jpg"
+  }
+}
