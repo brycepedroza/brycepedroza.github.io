@@ -33,21 +33,21 @@ const timeline_items = experience.map((position, index) => (
   )
 )
 
-export default class Bryce extends Component {
+export default class Experience extends Component {
 
   render() {
     return (
-      <div>
+      <Container>
         <div className="bounce-in-div">
           <h1> Where I've been. </h1>
           <h4 style={{margin: 5}}> Here's a timeline highlighting some of my important work experience. </h4>
           <h4 style={{margin: 5}}> Want to see everything? Just check out my resume. </h4>
-          <Button style={{background:"#A787AB"}} size="massive"><a href={pdf} target="_blank" style={{color: "white"}}>Download Resume</a></Button>
+          <Button className="my-button" size="massive"><a href={pdf} target="_blank" style={{color: "white"}}>Download Resume</a></Button>
         </div>
         <VerticalTimeline>
           {timeline_items}
         </VerticalTimeline>
-      </div>
+      </Container>
     )
   }
 }

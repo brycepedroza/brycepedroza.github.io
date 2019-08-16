@@ -34,7 +34,7 @@ code {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white !important;
+  color: white ;
   min-height: 100vh;
   height: 100%
 }
@@ -46,7 +46,7 @@ code {
 
 .bounce-in-div {
   visibility: visible;
-  animation: bounce-in 0.4s;
+  animation: bounce-in 0.3s;
 }
 
 .vertical-timeline-element-icon {
@@ -73,6 +73,10 @@ code {
 }
 
 .my-button {
-  background: #A787AB;
+  background: rgba(167, 135, 171, 1.0) !important;
+}
+
+.my-button:hover {
+  background: rgba(154, 125, 158, 1.0) !important;
 
 }

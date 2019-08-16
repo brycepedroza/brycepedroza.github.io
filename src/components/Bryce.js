@@ -24,7 +24,7 @@ export default class Bryce extends Component {
 
   render() {
     return (
-      <Container text className="bounce-in-div">
+      <Container className="bounce-in-div">
       <div style={{display: "flex", alignItems: "center", height: "100%"}}>
         <div>
         <h1> Hey, I'm Bryce Pedroza. </h1>

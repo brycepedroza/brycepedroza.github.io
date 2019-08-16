@@ -44,14 +44,9 @@ export default class TopNav extends Component {
     else if (name === "instagram") {
       window.location.href = "https://www.instagram.com/brycepedroza/"
     }
-    // else if (name === "mail") {
-    //   console.log('here')
-    //   document.execCommand('copy');
-    //   e.target.focus()
-    //   // This is just personal preference.
-    //   // I prefer to not show the the whole text area selected.
-    //   console.log(e.target.focus())
-    // }
+    else if (name === "github") {
+      window.location.href = "https://github.com/brycepedroza"
+    }
   }
 
 
@@ -94,6 +89,10 @@ export default class TopNav extends Component {
             size="big"
             style={{ cursor: 'pointer' }}
             onClick={this.handleIconClick.bind(this)}/>
+            <Icon name='github'
+              size="big"
+              style={{ cursor: 'pointer' }}
+              onClick={this.handleIconClick.bind(this)}/>
           <CopyToClipboard text="brycepedroza@gmail.com">
           <div style={{display: "inline", cursor: "pointer"}}>
           <Popup

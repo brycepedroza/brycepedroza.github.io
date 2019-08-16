@@ -3,6 +3,7 @@ import { Grid, Image, Header} from "semantic-ui-react"
 import TopNav from "./components/TopNav"
 import Bryce from "./components/Bryce"
 import Experience from "./components/Experience"
+import Projects from "./components/Projects"
 
 
 import { Route, Switch, withRouter, Redirect } from "react-router-dom";
@@ -34,7 +35,7 @@ export default class Routes extends Component {
               <Bryce/>
             }/>
             <Route exact path="/projects" component={ () =>
-              <p> Projects </p>
+              <Projects/>
             }/>
             <Route exact path="/experience" component={ () =>
               <Experience/>
