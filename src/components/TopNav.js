@@ -14,20 +14,22 @@ export default class TopNav extends Component {
   };
 
   componentDidMount(){
-    let path = window.location.pathname
+    let path = window.location.hash
+    console.log(path)
     var activeItem = "home" //assume home to start
-    if (path.startsWith("/blog")) {
+    if (path.startsWith("#/blog")) {
       activeItem = "blog"
     }
-    else if (path.startsWith("/projects")) {
+    else if (path.startsWith("#/projects")) {
       activeItem = "projects"
     }
-    else if (path.startsWith("/experience")) {
+    else if (path.startsWith("#/experience")) {
       activeItem = "experience"
     }
-    else if (path.startsWith("/plants")) {
+    else if (path.startsWith("#/plants")) {
       activeItem = "plants"
     }
+    console.log(activeItem)
     this.setState({
       activeItem: activeItem
     })

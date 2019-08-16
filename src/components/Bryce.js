@@ -24,10 +24,12 @@ export default class Bryce extends Component {
 
   render() {
     return (
-      <Container text>
+      <Container text className="bounce-in-div">
       <div style={{display: "flex", alignItems: "center", height: "100%"}}>
+        <div>
+        <h1> Hey, I'm Bryce Pedroza. </h1>
         <p style={{fontSize: "1.15em"}}>
-          Hey, I'm Bryce Pedroza. I'm a Graduate student at Arizona State
+          I'm a Graduate student at Arizona State
           University studying Computer Science. I'm currently
           conducting my thesis in the area of Big Data within Cybersecurity.
           Along with this, I'm an information security intern at <a href="https://starbucks.com"> Starbucks </a>
@@ -43,6 +45,7 @@ export default class Bryce extends Component {
           playing <a href="https://en.wikipedia.org/wiki/Codenames_(board_game)"> Code Names, </a>
           or taking care of my plants!
          </p>
+         </div>
        </div>
 
       </Container>

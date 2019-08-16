@@ -1,12 +1,14 @@
-import React, { Component } from 'react'
-import { Grid, Image, Header} from 'semantic-ui-react'
-import TopNav from './components/TopNav'
-import Bryce from './components/Bryce'
+import React, { Component } from "react"
+import { Grid, Image, Header} from "semantic-ui-react"
+import TopNav from "./components/TopNav"
+import Bryce from "./components/Bryce"
+import Experience from "./components/Experience"
+
 
 import { Route, Switch, withRouter, Redirect } from "react-router-dom";
 
 
-const bryce = require('./images/headshot.jpg')
+const bryce = require("./images/headshot.jpg")
 const header_styles = {
   color: "white",
   fontSize: "2em",
@@ -35,7 +37,7 @@ export default class Routes extends Component {
               <p> Projects </p>
             }/>
             <Route exact path="/experience" component={ () =>
-              <p> Experience </p>
+              <Experience/>
             }/>
             <Route exact path="/blog" component={ () =>
               <h1> Blog posts coming soon </h1>

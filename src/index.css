@@ -42,3 +42,27 @@ code {
 .ui.secondary.vertical.pointing.menu .active.item {
     border-color: white !important;
 }
+
+
+.bounce-in-div {
+  visibility: visible;
+  animation: bounce-in 0.4s;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0), 0 3px 0 4px rgba(0,0,0,.0) !important;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+  opacity: 1.0 !important;
+  color: white !important;
+  padding: 10px !important;
+}
+
+/* .title-styles {
+  font-size: 2em;
+}
+
+.content-styles {
+  font-size: 1.25em;
+} */
