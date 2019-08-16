@@ -1,65 +1,54 @@
 import React, { Component } from "react"
-import { Container, Image } from "semantic-ui-react"
+import { Container, Image, Button } from "semantic-ui-react"
 import { Link } from "react-router-dom"
 import { Timeline, TimelineItem }  from "vertical-timeline-component-for-react";
 import { Event } from "react-timeline-scribble";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import pdf from '../statics/BrycePedrozaSpring2019Resume.pdf';
 
-
-const starbuckslogo = require("../images/starbuckslogo.png")
-const walmartlogo = require("../images/walmartlogo.png")
-const asulogo = require("../images/asulogo.png")
+const logos = {
+  starbuckslogo: require("../images/starbuckslogo.png"),
+  walmartlogo: require("../images/walmartlogo.png"),
+  asulogo: require("../images/asulogo.png"),
+  playwelllogo: require("../images/playwelllogo.png"),
+}
 
 const header_styles = {
   color: "black",
   margin: 0
 }
 
+const experience = require("../statics/experience.json")
+const timeline_items = experience.map((position, index) => (
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date={<p className="content-styles" style={{color: "white"}}>{position.date}</p>}
+    iconStyle={{ background: 'white', color: '#fff' }}
+    icon={<Image circular={position.make_circular} style={{marginTop: position.offset}} src={logos[position.logo]} size="tiny"/>}>
+    <h2 style={header_styles}>{position.title}</h2>
+    <h4 style={header_styles}>{position.location}</h4>
+    <p className="content-styles">{position.desc}</p>
+  </VerticalTimelineElement>
+  )
+)
+
 export default class Bryce extends Component {
 
   render() {
     return (
       <div>
-      <h1 className="bounce-in-div"> Where I've been. </h1>
-      <VerticalTimeline>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="August 2018 - present"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<Image src={starbuckslogo} size="tiny"/>}>
-          <h3 style={header_styles}>Information Securuity Intern</h3>
-          <h4 style={header_styles}>Scottsdale, AZ</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="May 2019"
-          iconStyle={{ background: 'white', color: '#fff' }}
-          icon={<Image style={{marginTop: 8}} src={asulogo}/>}
-        >
-          <h3 style={header_styles}>BS in Computer Science</h3>
-          <h4 style={header_styles}>Tempe, AZ</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="May 2018 - August 2018"
-          iconStyle={{ background: 'white', color: '#fff' }}
-          icon={<Image style={{marginTop: -1}} src={walmartlogo}/>}
-        >
-          <h3 style={header_styles}>Software Engineering Intern</h3>
-          <h4 style={header_styles}>Bentonville, AR</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-      </VerticalTimeline>
+        <div className="bounce-in-div">
+          <h1> Where I've been. </h1>
+          <h4 style={{margin: 0}}> Here's a timeline highlighting some of my important work experience. </h4>
+        </div>
+        <VerticalTimeline>
+          {timeline_items}
+        </VerticalTimeline>
+        <div className="bounce-in-div">
+          <h4> Want to see more? Checkout my resume. </h4>
+          <Button primary size="massive"><a href={pdf} target="_blank" style={{color: "white"}}>Download Resume</a></Button>
+        </div>
       </div>
     )
   }

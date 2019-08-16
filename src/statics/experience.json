@@ -1,37 +1,40 @@
-{
-  [
+[{
     "title": "Information Security Intern",
     "location": "Scottsdale, AZ",
     "date": "August 2018 - Present",
-    "desc": "I\'ve assisted in mainting vulnerability management and building \
-            automation for Global Cybersecurity Services at Starbucks. I build tools \
-            using Python, Redis, and Docker to stand up concurrent programming and \
-            APIs. At Starbucks, I have experience deploying application in Azure \
-            and building CI/CD pipelines.",
-    "logo": ""
-  ],
-  [
-    "title": "",
-    "location": "",
-    "date": "",
-    "desc": ""
-  ],
-  [
-    "title": "",
-    "location": "",
-    "date": "",
-    "desc": ""
-  ],
-  [
-    "title": "",
-    "location": "",
-    "date": "",
-    "desc": ""
-  ],
-  [
-    "title": "",
-    "location": "",
-    "date": "",
-    "desc": ""
-  ]
-}
+    "desc": "I've assisted in maintaining vulnerability management and building automation for the Global Cybersecurity Services team at Starbucks. I am using Python, Redis, and Docker to stand up concurrent programming and APIs. At Starbucks, I have experience deploying applications in Azure and building CI/CD pipelines to assist in our deployments.",
+    "logo": "starbuckslogo",
+    "make_circular": false,
+    "offset": 0
+  },
+
+  {
+    "title": "BS in Computer Science",
+    "location": "Arizona State University",
+    "date": "May 2019",
+    "desc": "I graduated from ASU summa cum laude with a 3.96 GPA. I was member of The Software Developer’s Association. During my time as an undergrad, I was a teaching assistant for object-oriented programming and data structures in Java. I held office hours, review sessions, and served as a bridge between the students and the professor. I am a member of the NSF funded Academic Success and Professional Development Scholarship program. I am now pursuing a master’s degree in Computer Science at ASU.",
+    "logo": "asulogo",
+    "make_circular": false,
+    "offset": 8
+  },
+
+  {
+    "title": "Software Engineering Intern",
+    "location": "Bentonville, AR",
+    "date": "May 2018 - August 2018",
+    "desc": "As an intern on the payment acceptance team at Walmart, I built internal application to empower quality engineers and business partners to make development changes and production commits respectively to the attributes associated to issuer/bank identification numbers that Walmart supports. This application used a REST API and was built using React.js.",
+    "logo": "walmartlogo",
+    "make_circular": false,
+    "offset": -1
+  },
+
+  {
+    "title": "Engineering Instructor",
+    "location": "Phoenix Arizona",
+    "date": "May 2017 - Jan 2018",
+    "desc": "At Play-Well Teknologies, I taught students grades K-2 and 6-8 principles in Engineering, Science and Technology through hands-on project-based learning with LEGO in class sizes of  typically 15 students. My time as an Engineering Instructor taught me great leadership and how to teach and work with others.",
+    "logo": "playwelllogo",
+    "make_circular": true,
+    "offset": 0
+  }
+]

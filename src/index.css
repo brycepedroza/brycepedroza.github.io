@@ -53,16 +53,21 @@ code {
   box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0), 0 3px 0 4px rgba(0,0,0,.0) !important;
 }
 
+.vertical-timeline-element-content {
+  box-shadow: 0 0 0 0px #fff, inset 0 0px 0 rgba(0, 0, 0, 0), 0 0px 0 0px rgba(0,0,0,.0) !important;
+
+}
+
 .vertical-timeline-element-content .vertical-timeline-element-date {
   opacity: 1.0 !important;
   color: white !important;
   padding: 10px !important;
 }
 
-/* .title-styles {
+.title-styles {
   font-size: 2em;
 }
 
 .content-styles {
-  font-size: 1.25em;
-} */
+  font-size: 1em !important;
+}

@@ -37,7 +37,7 @@ export default class Bryce extends Component {
           Take a look at my experiences for more on Starbucks and my prior work experience!
           <br/><br/>
           In my spare time, I like to work on personal projects (like this site!).
-          I built with React.js and was a quick project to highlight my front end skills.
+          I built this site with React.js and was a quick project to highlight my front end skills.
           Check out my other projects over to the side to see some of the other technologies I've used.
           <br/><br/>
           When I am not coding, I'm hiking, building desks, making amateur YouTube content,
