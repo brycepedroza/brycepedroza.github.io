@@ -40,15 +40,13 @@ export default class Bryce extends Component {
       <div>
         <div className="bounce-in-div">
           <h1> Where I've been. </h1>
-          <h4 style={{margin: 0}}> Here's a timeline highlighting some of my important work experience. </h4>
+          <h4 style={{margin: 5}}> Here's a timeline highlighting some of my important work experience. </h4>
+          <h4 style={{margin: 5}}> Want to see everything? Just check out my resume. </h4>
+          <Button style={{background:"#A787AB"}} size="massive"><a href={pdf} target="_blank" style={{color: "white"}}>Download Resume</a></Button>
         </div>
         <VerticalTimeline>
           {timeline_items}
         </VerticalTimeline>
-        <div className="bounce-in-div">
-          <h4> Want to see more? Checkout my resume. </h4>
-          <Button primary size="massive"><a href={pdf} target="_blank" style={{color: "white"}}>Download Resume</a></Button>
-        </div>
       </div>
     )
   }
