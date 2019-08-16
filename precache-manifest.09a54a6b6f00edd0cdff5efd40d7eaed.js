@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "84ac31b13fc52a84be30f27bc26db8f8",
+    "revision": "1884a56044bb2d7c4627cf8bdfba2a1c",
     "url": "/index.html"
   },
   {
-    "revision": "0cbba46335dec5f499cd",
-    "url": "/static/css/2.621b5bde.chunk.css"
+    "revision": "5a3762dbfc1f4d892cb1",
+    "url": "/static/css/2.962b12d2.chunk.css"
   },
   {
-    "revision": "3236fada6d49320b6d3a",
-    "url": "/static/css/main.34f86288.chunk.css"
+    "revision": "c3969205bbae7ae2956f",
+    "url": "/static/css/main.dfdbc37b.chunk.css"
   },
   {
-    "revision": "0cbba46335dec5f499cd",
-    "url": "/static/js/2.723d53a3.chunk.js"
+    "revision": "5a3762dbfc1f4d892cb1",
+    "url": "/static/js/2.6851b53f.chunk.js"
   },
   {
-    "revision": "3236fada6d49320b6d3a",
-    "url": "/static/js/main.517d6189.chunk.js"
+    "revision": "c3969205bbae7ae2956f",
+    "url": "/static/js/main.52de87c3.chunk.js"
   },
   {
     "revision": "bd401bf1d39abb077abd",
     "url": "/static/js/runtime~main.b4b9169f.js"
+  },
+  {
+    "revision": "0b65c955657ae2f60d452cdaa22af5e5",
+    "url": "/static/media/BrycePedrozaSpring2019Resume.0b65c955.pdf"
+  },
+  {
+    "revision": "1971b18aa8b542a59f2a5dc1a40df18d",
+    "url": "/static/media/asulogo.1971b18a.png"
   },
   {
     "revision": "34c3707f63bb964fd1d47d17e16a2162",
@@ -98,5 +106,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "73576eb90dea6f975a7d51cfbde6ec73",
+    "url": "/static/media/starbuckslogo.73576eb9.png"
+  },
+  {
+    "revision": "0b1d9c2e640356c043ab0662268d61ae",
+    "url": "/static/media/walmartlogo.0b1d9c2e.png"
   }
 ]);
