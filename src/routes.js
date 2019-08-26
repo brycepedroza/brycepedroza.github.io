@@ -4,6 +4,7 @@ import TopNav from "./components/TopNav"
 import Bryce from "./components/Bryce"
 import Experience from "./components/Experience"
 import Projects from "./components/Projects"
+import ConwaysGame from "./components/Conways"
 
 
 import { Route, Switch, withRouter, Redirect } from "react-router-dom";
@@ -36,6 +37,9 @@ export default class Routes extends Component {
             }/>
             <Route exact path="/projects" component={ () =>
               <Projects/>
+            }/>
+            <Route exact path="/projects/conways" component={ () =>
+              <ConwaysGame/>
             }/>
             <Route exact path="/experience" component={ () =>
               <Experience/>

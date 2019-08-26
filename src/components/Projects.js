@@ -61,6 +61,7 @@ export default class Projects extends Component {
               <Item.Header style={{color: "white"}}>Conway-s-Game-of-Life</Item.Header>
                 <Item.Description style={{color: "white"}}>
                   <p>Example of a randomly generated area of space to simulate Conway's Game of Life Conway’s Game of Life is a zero-player game that follows a simple set of rules as if to simulate living beings. Cells are born and die on an infinite 2D grid that the player can interact with by choosing the initial setup of the cells on the grid. Once an initial setup is created, the user sits back and watches as cells live and die by following a select set of predetermined rules</p>
+                  <Button className="my-button" as={Link} to="projects/conways"> Check out a live example! </Button>
                 </Item.Description>
               </Item.Content>
             </Item>

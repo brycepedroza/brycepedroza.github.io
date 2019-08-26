@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.34f86288.chunk.css",
-    "main.js": "/static/js/main.517d6189.chunk.js",
-    "main.js.map": "/static/js/main.517d6189.chunk.js.map",
+    "main.css": "/static/css/main.a8c55f37.chunk.css",
+    "main.js": "/static/js/main.4333e719.chunk.js",
+    "main.js.map": "/static/js/main.4333e719.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.b4b9169f.js",
     "runtime~main.js.map": "/static/js/runtime~main.b4b9169f.js.map",
-    "static/css/2.621b5bde.chunk.css": "/static/css/2.621b5bde.chunk.css",
-    "static/js/2.723d53a3.chunk.js": "/static/js/2.723d53a3.chunk.js",
-    "static/js/2.723d53a3.chunk.js.map": "/static/js/2.723d53a3.chunk.js.map",
+    "static/css/2.962b12d2.chunk.css": "/static/css/2.962b12d2.chunk.css",
+    "static/js/2.16838f13.chunk.js": "/static/js/2.16838f13.chunk.js",
+    "static/js/2.16838f13.chunk.js.map": "/static/js/2.16838f13.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b485dc061fc588039a3a90a237b793f4.js": "/precache-manifest.b485dc061fc588039a3a90a237b793f4.js",
+    "precache-manifest.9f650811d7053c1dfd4971a38e06c3b6.js": "/precache-manifest.9f650811d7053c1dfd4971a38e06c3b6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.621b5bde.chunk.css.map": "/static/css/2.621b5bde.chunk.css.map",
-    "static/css/main.34f86288.chunk.css.map": "/static/css/main.34f86288.chunk.css.map",
+    "static/css/2.962b12d2.chunk.css.map": "/static/css/2.962b12d2.chunk.css.map",
+    "static/css/main.a8c55f37.chunk.css.map": "/static/css/main.a8c55f37.chunk.css.map",
+    "static/media/BrycePedrozaSpring2019Resume.pdf": "/static/media/BrycePedrozaSpring2019Resume.0b65c955.pdf",
+    "static/media/asulogo.png": "/static/media/asulogo.1971b18a.png",
     "static/media/index.css": "/static/media/background1.34c3707f.png",
     "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
     "static/media/defcon.jpg": "/static/media/defcon.91c87ebe.jpg",
-    "static/media/headshot.jpg": "/static/media/headshot.b8bc67e8.jpg"
+    "static/media/headshot.jpg": "/static/media/headshot.b8bc67e8.jpg",
+    "static/media/mapreducelogo.png": "/static/media/mapreducelogo.013e070d.png",
+    "static/media/reactlogo.jpg": "/static/media/reactlogo.b2b7b6c0.jpg",
+    "static/media/starbuckslogo.png": "/static/media/starbuckslogo.73576eb9.png",
+    "static/media/walmartlogo.png": "/static/media/walmartlogo.0b1d9c2e.png"
   }
 }
