@@ -23,7 +23,7 @@ const experience = require("../statics/experience.json")
 const timeline_items = experience.map((position, index) => (
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date={<p className="content-styles" style={{color: "white"}}>{position.date}</p>}
+    date={<p className="timeline-date-styles">{position.date}</p>}
     iconStyle={{ background: 'white', color: '#fff' }}
     icon={<Image circular={position.make_circular} style={{marginTop: position.offset}} src={logos[position.logo]} size="tiny"/>}>
     <h2 style={header_styles}>{position.title}</h2>

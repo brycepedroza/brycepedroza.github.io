@@ -14,9 +14,11 @@ code {
     monospace;
 }
 
+
+
 /* BACKGROUND STYLES */
 .main {
-  padding: 20px;
+  padding: 60px;
   height: 100%;
   background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("images/background1.png") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -26,6 +28,12 @@ code {
   color: white ;
   min-height: 100vh;
   height: 100%
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    padding: 20px;
+  }
 }
 
 .ui.secondary.vertical.pointing.menu .active.item {
@@ -48,10 +56,27 @@ code {
 
 }
 
+/* TIMELINE  */
 .vertical-timeline-element-content .vertical-timeline-element-date {
   opacity: 1.0 !important;
-  color: white !important;
+  color: blue ;
   padding: 10px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .vertical-timeline-element-date {
+    color: black !important;
+  }
+}
+
+.timeline-date-styles {
+  color: white !important;
+}
+
+@media only screen and (max-width: 1169px) {
+  .timeline-date-styles {
+    color: black !important;
+  }
 }
 
 /* MY PERSONAL P TAGS */
@@ -62,6 +87,7 @@ code {
 .content-styles {
   font-size: 1em !important;
 }
+
 
 /* MY PERSONAL BUTTONS */
 .my-button {
