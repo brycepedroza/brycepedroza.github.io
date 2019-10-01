@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Grid, Image, Header} from "semantic-ui-react"
+import { Grid, Image, Header } from "semantic-ui-react"
 import TopNav from "./components/TopNav"
 import Bryce from "./components/Bryce"
 import Experience from "./components/Experience"
@@ -10,7 +10,9 @@ import ConwaysGame from "./components/Conways"
 import { Route, Switch, withRouter, Redirect } from "react-router-dom";
 
 
-const bryce = require("./images/headshot.jpg")
+const bryce = require("./images/italy.jpg")
+const grandcanyon = require("./images/grandcanyon.jpg")
+
 const header_styles = {
   color: "white",
   fontSize: "2em",
@@ -26,7 +28,7 @@ export default class Routes extends Component {
       <Grid stackable>
         <Grid.Column width={4}>
           <Header size="huge" style={header_styles}> Bryce Pedroza </Header>
-          <Image rounded src={bryce}/>
+          <Image size="medium"rounded src={bryce}/>
           <TopNav/>
         </Grid.Column>
 
@@ -45,7 +47,10 @@ export default class Routes extends Component {
               <Experience/>
             }/>
             <Route exact path="/blog" component={ () =>
-              <h1> Blog posts coming soon </h1>
+              <div className="bounce-in-div">
+                <h1> Blog posts coming soon! </h1>
+                <Image rounded size="huge" src={grandcanyon}/>
+              </div>
             }/>
             </Switch>
         </Grid.Column>

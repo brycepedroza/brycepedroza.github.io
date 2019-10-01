@@ -5,7 +5,7 @@ import { Timeline, TimelineItem }  from "vertical-timeline-component-for-react";
 import { Event } from "react-timeline-scribble";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import pdf from '../statics/BrycePedrozaSpring2019Resume.pdf';
+import pdf from '../statics/BrycePedrozaFall2019Resume.pdf';
 
 const logos = {
   starbuckslogo: require("../images/starbuckslogo.png"),
