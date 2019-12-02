@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import { Grid, Image, Header } from "semantic-ui-react"
 import TopNav from "./components/TopNav"
 import Bryce from "./components/Bryce"
+import D3Resume from "./components/D3Resume"
+
 import Experience from "./components/Experience"
 import Projects from "./components/Projects"
 import ConwaysGame from "./components/Conways"
@@ -45,6 +47,9 @@ export default class Routes extends Component {
             }/>
             <Route exact path="/experience" component={ () =>
               <Experience/>
+            }/>
+            <Route exact path="/d3" component={ () =>
+              <D3Resume/>
             }/>
             <Route exact path="/blog" component={ () =>
               <div className="bounce-in-div">

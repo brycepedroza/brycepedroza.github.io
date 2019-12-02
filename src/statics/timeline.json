@@ -1,0 +1,129 @@
+[{
+		"group": "Education",
+		"data": [{
+				"label": "Courses",
+				"data": [
+          {
+						"timeRange": ["January 2019", "May 2019"],
+            "val": "Spring 2019",
+						"desc": "Cloud Computing. The fundamentals and history of Cloud Computing. Created IAAS infrasturcture in AWS. Created Super Smash Bros community web application using Google PAAS",
+						"skills": ["AWS", "GCP", "React", "Node", "Docker", "Firebase"]
+					},
+          {
+            "timeRange": ["August 2019", "December 2019"],
+            "val": "Fall 2019",
+            "desc": "Data Visualization. Learned the primary principles of data visualization and D3 js. Web and Multimedia Databases. Reviewed fundamental feature extraction techniques for images. Learned dimensionality reduction techniques for clustering and classification of data.",
+            "skills": ["D3", "Tableau", "JavaScript", "Python"]
+          }
+				]
+			},
+      {
+        "label": "Research",
+        "data": [
+          {
+            "timeRange": ["August 2017", "December 2017"],
+            "val": "Decision Neuroscience Lab",
+            "desc": "Undergraduate RA under Dr. Sam McClure. In this lab, I assisted in building lab tests using python.",
+            "skills": ["Python"]
+          },
+          {
+            "timeRange": ["January 2018", "May 2018"],
+            "val": "FURI",
+            "desc": "Fulton Undergraduate Research Initiative with Dr. Armando Rodriguez. I conducted stock portfolio optimization and fundamentals analysis. I scraped articles from the New York Times mentioning a company to determine how it impacted the stock's technical indicators",
+            "skills": ["Python"]
+          },
+          {
+            "timeRange": ["June 2019", "December 2019"],
+            "val": "Master's Thesis",
+            "desc": "SEFCOM Lab at ASU. Context Management Access Control in Hapache Hadoop Ecosystem. The goal is to provide more robust and fine grained access control within HDFS. ",
+            "skills": ["Java", "Docker", "Kafka", "Hadoop", "Faust", "Bash"]
+          }
+        ]
+      }
+		]
+	},
+	{
+		"group": "Experience",
+		"data": [
+      {
+        "label": "UGTA",
+        "data": [
+          {
+            "timeRange": ["January 2018", "May 2018"],
+            "val": "Object Oriented Programming and Data Structures.",
+            "desc": "Undergraduate TA. Ran lectures with 60 students, hosted review sessions, office hours, and served as a bridge between students and the profressor.",
+            "skills": ["Java"]
+          },
+          {
+            "timeRange": ["August 2018", "May 2019"],
+            "val": "Introduction to programming in Java.",
+						"desc": "Undergraduate TA. Ran lectures with 100+ students, hosted review sessions, office hours, and served as a bridge between students and the profressor.",
+            "skills": ["Java"]
+          }
+        ]
+      },
+      {
+				"label": "Internships",
+				"data": [
+          {
+						"timeRange": ["May 2018", "August 2018"],
+            "val": "Walmart",
+            "desc": "Developed internal application for the Payment Acceptance Team to audit how Walmart handles payment card transactions. • Used internal REST APIs to determine the attributes associated with issuer/bank identification numbers that Walmart supports. • Enabled business partners to view and update transaction rules associated to more than 10,000 different types of credit cards.",
+						"skills": ["React", "Node", "git", "HTML", "CSS", "JavaScript"]
+					},
+          {
+            "timeRange": ["August 2018", "Dec 2019"],
+            "val": "Starbucks",
+            "desc": "What haven't I done!? As an Information Security Engineer At Starbucks, I stand up automation services to assist in vulnerability management and threat assessment of the brand.",
+            "skills": ["Python", "Azure", "Docker", "Jenkins", "SQL", "git"]
+          }
+				]
+			}
+		]
+	},
+  {
+		"group": "Projects",
+		"data": [
+      {
+        "label": "Competitions",
+        "data": [
+          {
+            "timeRange": ["February 23 2019", "February 25 2019"],
+            "val": "SoDA Coding Challenge",
+            "desc": "Second place across all undergraduates in 4 hour hackathon event.",
+            "skills": ["Python"]
+          },
+          {
+            "timeRange": ["September 10 2019", "September 13 2019"],
+            "val": "ASU Sunhacks",
+            "desc": "An Official MLH event where myself and three other built an application to get advanced neighborhoods trends in cities.",
+            "skills": ["Python", "Mongo", "React", "Node", "Javascript"]
+          }
+        ]
+      },
+      {
+				"label": "Side Projects",
+				"data": [
+          {
+            "timeRange": ["May 10 2019", "May 15 2019"],
+            "val": "Woodworking",
+            "desc": "I Built my own desk where I sit an code a lot of my projects, like this one right now. I plan to add some pictures to the blog soon!",
+            "skills": ["Woodworking"]
+          },
+          {
+						"timeRange": ["October 2019", "December 2019"],
+            "val": "Stockhawk",
+            "desc": "I am building a stock tracking app with advanced fundamentals and analysis. The idea is to help people looking to start their investment journey.",
+						"skills": ["React", "Node", "git", "HTML", "CSS", "JavaScript", "Python", "Mongo"]
+					},
+          {
+            "timeRange": ["August 2018", "Dec 2018"],
+            "val": "ASAP METS Website",
+            "desc": "Built a Node JS application with React front-end for fellow students and researchers to find project and research topics. This application is a part of the Nation Science Foundation’s review of ASU’s Academic Success and Professional Development program. (Current funding is three years, $5 million)",
+            "skills": ["React", "Node", "git", "HTML", "CSS", "JavaScript", "Mongo"]
+          }
+				]
+			}
+		]
+	}
+]

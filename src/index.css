@@ -119,3 +119,37 @@ code {
   margin: auto;
   text-align: center;
 }
+
+/* D3 RESUME */
+.chart-tooltip {
+  color: white;
+  background: #a787ab !important;
+}
+
+.timelines-chart .series-group {
+    fill-opacity: 0 !important;
+    stroke: white !important;
+    stroke-opacity: 1 !important;
+}
+
+.timelines-chart .axises .x-grid line {
+    stroke: white !important;
+}
+
+
+.timelines-chart .axises .y-axis text, .timelines-chart .axises .grp-axis text, .timelines-chart .axises .x-axis text {
+  fill: white !important
+}
+
+/* DIV ANIMATIONS */
+#mySkills {
+  visibility: visible;
+  animation: bounce-in 0.4s;
+  animation: bounce-out 0.4s;
+}
+
+.d3Card {
+  color: white !important;
+  margin: 25px;
+  animation: bounce-in 0.4s !important;
+}

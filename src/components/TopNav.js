@@ -26,6 +26,9 @@ export default class TopNav extends Component {
     else if (path.startsWith("#/experience")) {
       activeItem = "experience"
     }
+    else if (path.startsWith("#/D3")) {
+      activeItem = "d3"
+    }
     else if (path.startsWith("#/plants")) {
       activeItem = "plants"
     }
@@ -78,6 +81,12 @@ export default class TopNav extends Component {
               name='blog'
               as={Link} to="/blog"
               active={this.state.activeItem === 'blog'}
+              onClick={this.handleItemClick.bind(this)}
+              style={{color: 'white', padding: "10px 0px"}}/>
+            <Menu.Item
+              name='d3'
+              as={Link} to="/D3"
+              active={this.state.activeItem === 'd3'}
               onClick={this.handleItemClick.bind(this)}
               style={{color: 'white', padding: "10px 0px"}}/>
           </Menu>
